@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    background: #222;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.container .logo{
+    width: 200px;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+.pagination{
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+ul{
+    margin: 0 10px;
+}
+ul li{
+    display: inline-block;
+    list-style: none;
+    font-size: 22px;
+    font-weight: 500;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    background: #fff;
+    line-height: 45px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    background-position: 0 -45px;
+    transition: background-position 0.5s;
+    transition: 0.5s;
+}
+ul li:hover:not(.active){
+    background: #ccc;
+}
+.btn1{
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.btn1 img{
+    width: 22px;
+    margin-right: 15px;
+}
+.btn1:hover {
+    background: #ccc;
+}
+.btn2 {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    outline: none;
+    border: none;
+    background: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.btn2 img {
+    width: 22px;
+    margin-left: 15px;
+    transform: rotate(180deg);
+}
+.btn2:hover{
+    background: #ccc;
+}
+ul li.active{
+    background-image: linear-gradient(#ff004f, #ff004f);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    color: #fff;
+}
