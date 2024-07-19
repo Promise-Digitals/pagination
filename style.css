@@ -7,21 +7,21 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: #1f2b37;
+    background: #181818;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
 .container .logo{
-    width: 100px;
+    width: 35px;
     position: absolute;
     top: 1%;
     left: 1%;
 }
 .pagination{
     background: #fff;
-    padding: 20px 30px;
+    padding: 10px 20px;
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@ ul li:hover:not(.active){
     background: #ccc;
 }
 ul li.active{
-    background-image: linear-gradient(#4f76f6, #4f76f6);
+    background-image: linear-gradient(#6660ff, #6660ff);
     background-repeat: no-repeat;
     background-position: 0 0;
     color: #fff;
